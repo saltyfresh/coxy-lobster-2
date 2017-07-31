@@ -1,0 +1,214 @@
+/* Coolors.co https://coolors.co/000000-ffffff-b5bb65-d7f9f1-7aa095 */
+
+
+.jumbotron{
+height: auto;
+width: 100%;
+color: darkred;
+background-size: contain;
+background-color: #E8E9EB;
+
+}
+
+.container-fluid, .nav-flex {
+    color: #EF6461;
+    
+}
+
+.auto-hero {
+    background-size: contain;
+}
+
+.hero {
+    background-size: cover;
+    height:400px;
+    color: white;
+    margin-top: 0px;
+}
+
+.carousel slide {
+    margin-top: 0px;
+}
+
+.carousel-image {
+    height: 500px;
+    background-size: cover;
+	background-position: center center;
+}
+
+/*Carousel Images below*/
+.image-1 {
+    background-image: url("../images/lighthouse.jpg");
+}
+
+.image-2 {
+    background-image: url("../images/beachfront.jpg");
+}
+
+.image-3 {
+    background-image: url("../images/blueberries.jpg");
+}
+
+.restaurant-hero {
+    background-image: url("../images/restaurant.jpeg");
+    background-size: cover;
+    height:400px;
+    color: black;
+}
+
+.about-hero {
+    background-image: url("../images/francis-macdonald-107145.jpg");
+    background-size: cover;
+    height:400px;
+    color: white;
+}
+
+.brand-image{
+    height: 200%;
+    margin-top: -10px;
+    background-size: 8px;
+    
+}
+
+.navbar {
+        text-align: right;
+        color: #EF6461;
+        margin-bottom: 0;
+}
+
+.navbar-collapse {
+    text-align: right;
+}
+
+.navbar-default {
+    background-color: #E4B363;
+    color: #EF6461;
+    
+}
+
+/* h3 */
+
+.pageheader {
+    font-size: 50px;
+    font-family: georgia;
+    font: bold;
+    color: darkred;
+}
+   
+
+.logo {
+    width: 50px;
+    height: 50px;
+    text-align: inline-block;
+}
+
+.fieldset {
+      border: 0;
+    }
+    label {
+      /*display: block;*/
+      margin: 20px 0 20px 0;
+    }
+    .overflow {
+      height: 200px;
+}
+
+.media-object {
+    width: 200px;
+}
+
+.body {
+    background-color: #E07A5F;
+}
+
+.collapse, .navbar-collapse, .navbar-header{
+    color: #E4B363;
+}
+
+#bs-example-navbar-collapse-1 {
+    color: #E4B363;
+}
+
+
+/*
+.navbar-brand li a{
+    color: #E07A5F;
+    display:inline-block;
+    align-items:center;
+}
+*/
+
+.navbar-default .navbar-nav > li > a {
+    color: #;
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    font-size: 19px;
+    font-family: georgia;
+    text-align:left;
+     display:inline-flex;
+    align-items:center;
+    background-color: #E4B363;
+    
+}
+
+/*Centers Nav  */
+
+.navbar-form .navbar-right {
+    display:inline-block;
+    align-items:center;
+    width: 160px;
+    height: 75px;
+}
+
+@media (min-width: 768px){
+    .navbar-collapse.collapse{
+    display:flex !important;
+    align-items:center;
+    justify-content:flex-end;
+    }
+    
+    
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        background-color: #E4B363;
+        color: darkred;
+    }
+}
+    
+.nav-flex {
+    display: flex;
+    align-items: center;
+    background-color: #E4B363;
+}
+
+.navbar-header {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    color: #EF6461;
+    background-color: #E4B363;
+}
+
+.footer {
+    color: darkred;
+    background-color: #E4B363;
+}
+
+/*https://coolors.co/31373e-4e6e5d-476a6f-cdcdcd-e07a5f*/
+
+
+ #bs-example-navbar-collapse-1 {
+     background-color: #E4B363;
+ }
+ 
+ .container-background-color {
+     background-color: #E8E9EB;
+ }
+ 
+ .suites {
+     display: flex;
+     flex-wrap:wrap;
+ }

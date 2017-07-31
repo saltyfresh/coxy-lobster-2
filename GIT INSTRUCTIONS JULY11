@@ -1,0 +1,165 @@
+Click here for the accessible version
+SEARCH
+Search Input (Press cntl+alt+a to switch to accessible mode)  
+esonger
+Sign Out  Options
+99+
+45
+8
+94
+Reply
+Reply All
+Forward
+Delete
+Spam
+More
+Print Message <span>(t)</span>  Create Event <span>(e)</span>  Create To-Do <span>(d)</span>  Open in new window <span>(o)</span>
+1 day ago
+Git and commandline notes  
+Ian Sudderth to you (Bcc)show details
+Important
+For all these commands, anything in brackets is something you replace with some other piece of information, i.e. :
+ cd [directory name] 
+Means to type cd followed by the name of the director you want to move into
+command line cheat-sheet
+ls 	shows content of current directory
+
+cd [directory name] 	moves into the directory name
+
+cd .. 	moves into the parent directory
+
+mkdir [directory name]	creates a new directory in the current location
+
+touch [file name]		creates a file in the current directory, remember to include     					extension (.html, .css, etc..)
+
+clear		Clears the window of text
+
+
+Git cheat-sheet
+git init	creates a git repository in the current directory.  You only need to do this once 	   		and do it in the root folder of your project
+
+git add .  or  git add --all	adds all the files for creating a commit
+
+git commit -m “[note about commit]”		creates a commit
+
+git status 	shows the status of the git repository included files that changed or that are 	    		staged for commit
+
+git branch 	shows branches
+
+git branch [branch name]	creates a new branch, copying current branch
+
+git checkout [branch name]	moves to new branch
+
+git merge [branch name]		merges changes from the given branch into the current 						branch
+
+git push	pushes all changes into the github repository
+Getting Started
+Open up the cloud9 workspace with your project
+Navigate to the project folder using
+
+ cd [directory name]
+
+If your project isn’t in a folder, and just in the base workspace folder, skip this step
+Create a new repository with
+
+ git init
+
+Add in files for the initial commit with 
+
+git add --all
+
+Make the initial commit with 
+
+git commit -m “[note about commit]”
+
+Sign into github and create a new repository
+Copy and paste the code under “..or push an existing project” into the terminal and press enter.
+It will ask for username and password, enter them and press enter
+Your repository is now ready for work and connected to github!!
+
+Making a Commit
+Add all the files you’ve changed with: 
+
+git add .   or    git add --all
+
+Create the commit with a comment about the changes that were made with:		                        
+
+git commit -m “[your comment here]”
+
+Push your files to github with:
+
+	git push
+
+Making a new Branch
+Make sure you’re in the branch you want to use as your starting point (usually master)
+
+	git checkout [branch_name]
+
+Create a new branch
+	
+    git branch [branch_name]
+
+Move to the new branch
+	
+git checkout [branch_name]
+Merging a branch
+Move to the branch you want the changes merged into, imagine that merging will pull the changes into the current branch:
+
+	git checkout [branch_name]
+
+Merge the target branch’s changes into the current branch
+	
+git merge [target_branch_name]
+
+Create a commit and push to github
+	
+       git add --all
+	git commit -m “[comment]”
+	git push
+Hosting on Github Pages
+Once you’re ready to post to Github Pages, merge all your changes into the master branch and move there.
+	
+git checkout master
+
+Create a new branch named gh-pages and move there
+	
+git branch gh-pages
+      git checkout gh-pages
+
+Create a commit and push to github
+	
+git add --all
+      git commit -m “[comment]”
+      git push
+
+Origin / Upstream errors
+Occasionally, you will run into problems when you try to push your changes to github, it will say an error involving “upstream” or “origin”, the way to fix that is:
+
+	git push origin [current_branch_name]
+
+This tells github to use the “origin”, which is github’s nickname for your repository inside git, and which branch to use.
+
+Resources:
+Lynda video (free with library card) that walks through git and github basics, highly recommended!!!
+
+https://www.lynda.com/Git-tutorials/Up-Running-Git-GitHub/409275-2.html?org=nypl.org
+
+Youtube videos from instructors I trust.  I haven’t watched most of these, but these are all from instructors I enjoy learning from:
+
+https://www.youtube.com/watch?v=BCQHnlnPusY
+https://www.youtube.com/watch?v=0fKg7e37bQE
+https://www.youtube.com/watch?v=1h9_cB9mPT8
+
+-- 
+Ian Sudderth | The New York Public Library
+Technology Instructor 
+
+NYPL TechConnect Department 
+445 Fifth Avenue, 6th flr, New York, NY 10016
+IanSudderth@nypl.org
+
+
+AdChoices
+© 2017 AOL Inc. All Rights Reserved
+  Get breaking news and all your emails instantly. Make AOL your homepage now.   
+  Get Started  
